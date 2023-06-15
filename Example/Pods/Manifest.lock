@@ -1,0 +1,16 @@
+PODS:
+  - mraftapi (0.1.0)
+
+DEPENDENCIES:
+  - mraftapi (from `../`)
+
+EXTERNAL SOURCES:
+  mraftapi:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  mraftapi: 84340e946634c376eea3fc666e52878ec45630db
+
+PODFILE CHECKSUM: 5b28915088793740f4b52b26e6461531ac9be804
+
+COCOAPODS: 1.12.1

@@ -1,0 +1,6 @@
+framework module mraftapi {
+  umbrella header "mraftapi-umbrella.h"
+
+  export *
+  module * { export * }
+}

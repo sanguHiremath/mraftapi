@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03394BDE8479D34E4E1A4D99892FC12E /* Pods-mraftapi_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCC62C0CF976321937B3F9E607640A9 /* Pods-mraftapi_Example-dummy.m */; };
+		513F709BC7776EC37786706AD61D8D28 /* Pods-mraftapi_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F0CCE3B1020CA4D06E6ED154882BE5 /* Pods-mraftapi_Tests-dummy.m */; };
+		566F96D25DF25F36CF026753E7A617B2 /* Pods-mraftapi_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D09E75A9CB218C3A1BB1A67E10E85C8 /* Pods-mraftapi_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C1B9A69A3D3BA79C70E520121CDD816 /* mraftapi-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C70851771317B8ED3A1172A86B86769 /* mraftapi-dummy.m */; };
+		6F7C8DC9BD80EAF5CDC28BA0F4EF0CC2 /* mraftapi-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CF48320B5E9B48A97903C624DD0C30B /* mraftapi-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		712708D4CB7AEF86A1749CCDB87EA9E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		779E5C449AFFEDDAD7126C6FDE3CA3F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BDB33212BD7D1323D6A78FBB7FD46BA9 /* Pods-mraftapi_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 32F2963C3D3826670C2F179E1F3178C0 /* Pods-mraftapi_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA30B7332A3B468C0070C76E /* ApiServiceCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA30B7322A3B468C0070C76E /* ApiServiceCall.swift */; };
+		FC4BCC66170DD04B8CDB20175138635F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		154CF648C1B6F6C3A248F893AAF28604 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CF34E4AEA627291B448DB7FA35D9A20;
+			remoteInfo = "Pods-mraftapi_Example";
+		};
+		52A332E274D60E961502101F083B4105 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F826008745CF341AEDC36B2FADA8AF3A;
+			remoteInfo = mraftapi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01639663628CECAE1F2BB8960C9431AF /* mraftapi.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = mraftapi.modulemap; sourceTree = "<group>"; };
+		0CF48320B5E9B48A97903C624DD0C30B /* mraftapi-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "mraftapi-umbrella.h"; sourceTree = "<group>"; };
+		0D09E75A9CB218C3A1BB1A67E10E85C8 /* Pods-mraftapi_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-mraftapi_Example-umbrella.h"; sourceTree = "<group>"; };
+		1C81EB69B93A6E62007E2EE72B5BF31B /* Pods-mraftapi_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-mraftapi_Tests-Info.plist"; sourceTree = "<group>"; };
+		25EEDB0849E4032F760E09DE03E352C6 /* Pods-mraftapi_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-mraftapi_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2A3636FF800CBC6247CF5369167E96B4 /* mraftapi.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = mraftapi.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		32F2963C3D3826670C2F179E1F3178C0 /* Pods-mraftapi_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-mraftapi_Tests-umbrella.h"; sourceTree = "<group>"; };
+		40E470ABBCE1FF7A932C990980720036 /* Pods-mraftapi_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-mraftapi_Example.modulemap"; sourceTree = "<group>"; };
+		585A57E3356E1F7F68AB09520369355A /* Pods-mraftapi_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-mraftapi_Tests"; path = Pods_mraftapi_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59607DC7A7D3C7CBDBCB48168EF9DEAC /* mraftapi */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = mraftapi; path = mraftapi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6280F03D97D23151E70667B791F0055C /* Pods-mraftapi_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-mraftapi_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6C70851771317B8ED3A1172A86B86769 /* mraftapi-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "mraftapi-dummy.m"; sourceTree = "<group>"; };
+		71744B9CDEB9F1F6A983D4A570FA37EE /* Pods-mraftapi_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mraftapi_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		79D09293D531360BEC769C31B61C41F5 /* Pods-mraftapi_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mraftapi_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7BCC62C0CF976321937B3F9E607640A9 /* Pods-mraftapi_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-mraftapi_Example-dummy.m"; sourceTree = "<group>"; };
+		906F8FB05DDB5ABE323691125C66556C /* Pods-mraftapi_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-mraftapi_Tests.modulemap"; sourceTree = "<group>"; };
+		9CAF3BEF9F44B66E6E78ABD999967E98 /* Pods-mraftapi_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-mraftapi_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2AB5613DCA3371EE334E708E5DD5A71 /* mraftapi-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "mraftapi-prefix.pch"; sourceTree = "<group>"; };
+		B08A9A5CEADD69CDF0D1A449B0F46D73 /* mraftapi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = mraftapi.release.xcconfig; sourceTree = "<group>"; };
+		B7A638492C74F0579758E518BF3CCB74 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BC0EE090990EB0E6B79942050B0F21EC /* Pods-mraftapi_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-mraftapi_Example"; path = Pods_mraftapi_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8417D0F127C42571BB000FBCBA42D2B /* Pods-mraftapi_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-mraftapi_Example-Info.plist"; sourceTree = "<group>"; };
+		D974CE204D552CB771F42C56B509AF7E /* Pods-mraftapi_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mraftapi_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		DF9CDA829F71734251A2DDFA5D1285A0 /* mraftapi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = mraftapi.debug.xcconfig; sourceTree = "<group>"; };
+		E16ABA3FBDD42DE60039FA91ADC0A0E4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E6F0CCE3B1020CA4D06E6ED154882BE5 /* Pods-mraftapi_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-mraftapi_Tests-dummy.m"; sourceTree = "<group>"; };
+		E7273DFE7496441662BAF52622B7E7CA /* Pods-mraftapi_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-mraftapi_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E7EB3F52C120296F7FFB2C803BE568D1 /* Pods-mraftapi_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mraftapi_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E96E9BABE40DA8B1065702F39FF89CA3 /* Pods-mraftapi_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-mraftapi_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		EACB75BE5B41C389822EC8BD4F145276 /* mraftapi-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "mraftapi-Info.plist"; sourceTree = "<group>"; };
+		FA30B7322A3B468C0070C76E /* ApiServiceCall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiServiceCall.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08DE58FF05AE5CE84CB78ED4586C6BBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				712708D4CB7AEF86A1749CCDB87EA9E3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CDA69C3F01A8F18CF87377C47CD2126 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				779E5C449AFFEDDAD7126C6FDE3CA3F7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0F4A8E0898521C22EE9797F7B1CB401 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC4BCC66170DD04B8CDB20175138635F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39AD755EE6AA76272D4F987336F50E39 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7DA43BC7B09AF068AC067FC9F677EA5B /* mraftapi */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		58AA89B900B200ABEC8894273AD56F15 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				01639663628CECAE1F2BB8960C9431AF /* mraftapi.modulemap */,
+				6C70851771317B8ED3A1172A86B86769 /* mraftapi-dummy.m */,
+				EACB75BE5B41C389822EC8BD4F145276 /* mraftapi-Info.plist */,
+				A2AB5613DCA3371EE334E708E5DD5A71 /* mraftapi-prefix.pch */,
+				0CF48320B5E9B48A97903C624DD0C30B /* mraftapi-umbrella.h */,
+				DF9CDA829F71734251A2DDFA5D1285A0 /* mraftapi.debug.xcconfig */,
+				B08A9A5CEADD69CDF0D1A449B0F46D73 /* mraftapi.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/mraftapi";
+			sourceTree = "<group>";
+		};
+		66E7DBDAE2FBA20CAFB7FFBB04F63739 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59607DC7A7D3C7CBDBCB48168EF9DEAC /* mraftapi */,
+				BC0EE090990EB0E6B79942050B0F21EC /* Pods-mraftapi_Example */,
+				585A57E3356E1F7F68AB09520369355A /* Pods-mraftapi_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		699C94801DBA845A6884EE992ABEDABC /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E16ABA3FBDD42DE60039FA91ADC0A0E4 /* LICENSE */,
+				2A3636FF800CBC6247CF5369167E96B4 /* mraftapi.podspec */,
+				B7A638492C74F0579758E518BF3CCB74 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7DA43BC7B09AF068AC067FC9F677EA5B /* mraftapi */ = {
+			isa = PBXGroup;
+			children = (
+				FA30B7322A3B468C0070C76E /* ApiServiceCall.swift */,
+				699C94801DBA845A6884EE992ABEDABC /* Pod */,
+				58AA89B900B200ABEC8894273AD56F15 /* Support Files */,
+			);
+			name = mraftapi;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		92E3E4440BEC862F02B5B87CFD4DB124 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F273D2365C535E3214E3406E1DED6BEA /* Pods-mraftapi_Example */,
+				F95C000494BF56A948F1BA88AC69F7DD /* Pods-mraftapi_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				39AD755EE6AA76272D4F987336F50E39 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				66E7DBDAE2FBA20CAFB7FFBB04F63739 /* Products */,
+				92E3E4440BEC862F02B5B87CFD4DB124 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F273D2365C535E3214E3406E1DED6BEA /* Pods-mraftapi_Example */ = {
+			isa = PBXGroup;
+			children = (
+				40E470ABBCE1FF7A932C990980720036 /* Pods-mraftapi_Example.modulemap */,
+				9CAF3BEF9F44B66E6E78ABD999967E98 /* Pods-mraftapi_Example-acknowledgements.markdown */,
+				E96E9BABE40DA8B1065702F39FF89CA3 /* Pods-mraftapi_Example-acknowledgements.plist */,
+				7BCC62C0CF976321937B3F9E607640A9 /* Pods-mraftapi_Example-dummy.m */,
+				25EEDB0849E4032F760E09DE03E352C6 /* Pods-mraftapi_Example-frameworks.sh */,
+				C8417D0F127C42571BB000FBCBA42D2B /* Pods-mraftapi_Example-Info.plist */,
+				0D09E75A9CB218C3A1BB1A67E10E85C8 /* Pods-mraftapi_Example-umbrella.h */,
+				71744B9CDEB9F1F6A983D4A570FA37EE /* Pods-mraftapi_Example.debug.xcconfig */,
+				E7EB3F52C120296F7FFB2C803BE568D1 /* Pods-mraftapi_Example.release.xcconfig */,
+			);
+			name = "Pods-mraftapi_Example";
+			path = "Target Support Files/Pods-mraftapi_Example";
+			sourceTree = "<group>";
+		};
+		F95C000494BF56A948F1BA88AC69F7DD /* Pods-mraftapi_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				906F8FB05DDB5ABE323691125C66556C /* Pods-mraftapi_Tests.modulemap */,
+				6280F03D97D23151E70667B791F0055C /* Pods-mraftapi_Tests-acknowledgements.markdown */,
+				E7273DFE7496441662BAF52622B7E7CA /* Pods-mraftapi_Tests-acknowledgements.plist */,
+				E6F0CCE3B1020CA4D06E6ED154882BE5 /* Pods-mraftapi_Tests-dummy.m */,
+				1C81EB69B93A6E62007E2EE72B5BF31B /* Pods-mraftapi_Tests-Info.plist */,
+				32F2963C3D3826670C2F179E1F3178C0 /* Pods-mraftapi_Tests-umbrella.h */,
+				D974CE204D552CB771F42C56B509AF7E /* Pods-mraftapi_Tests.debug.xcconfig */,
+				79D09293D531360BEC769C31B61C41F5 /* Pods-mraftapi_Tests.release.xcconfig */,
+			);
+			name = "Pods-mraftapi_Tests";
+			path = "Target Support Files/Pods-mraftapi_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		22B1D6F74774F4AECDD98C1814AB802C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F7C8DC9BD80EAF5CDC28BA0F4EF0CC2 /* mraftapi-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F672FA6E6D72FBC6BC388053FD5405D7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB33212BD7D1323D6A78FBB7FD46BA9 /* Pods-mraftapi_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F89B629AEA4C136BCD1469057EB32B46 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				566F96D25DF25F36CF026753E7A617B2 /* Pods-mraftapi_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0CF34E4AEA627291B448DB7FA35D9A20 /* Pods-mraftapi_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 128AAB7FEE72F60743A5059EC3972199 /* Build configuration list for PBXNativeTarget "Pods-mraftapi_Example" */;
+			buildPhases = (
+				F89B629AEA4C136BCD1469057EB32B46 /* Headers */,
+				D259EEF2AF102120858B633AED4A2452 /* Sources */,
+				5CDA69C3F01A8F18CF87377C47CD2126 /* Frameworks */,
+				6C55FB7F3BE1471F65C716BEBD3DFF0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BD1B2048E4F927E605583A624C670C3 /* PBXTargetDependency */,
+			);
+			name = "Pods-mraftapi_Example";
+			productName = Pods_mraftapi_Example;
+			productReference = BC0EE090990EB0E6B79942050B0F21EC /* Pods-mraftapi_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		73F529553C1ED7994BCFEE96478E7A9C /* Pods-mraftapi_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6C1BF7153B3C63EEE4817F07E2ED3A7 /* Build configuration list for PBXNativeTarget "Pods-mraftapi_Tests" */;
+			buildPhases = (
+				F672FA6E6D72FBC6BC388053FD5405D7 /* Headers */,
+				2242D7FFB5530AF37673D1CA3BB7C1FA /* Sources */,
+				D0F4A8E0898521C22EE9797F7B1CB401 /* Frameworks */,
+				F0CDA2C3D14D02C14FB111C4BD41FC6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFEF31A1ADEA0F7066B99BA600EA18B3 /* PBXTargetDependency */,
+			);
+			name = "Pods-mraftapi_Tests";
+			productName = Pods_mraftapi_Tests;
+			productReference = 585A57E3356E1F7F68AB09520369355A /* Pods-mraftapi_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		F826008745CF341AEDC36B2FADA8AF3A /* mraftapi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE2A086EFD4E2E3C63604B302E217BB1 /* Build configuration list for PBXNativeTarget "mraftapi" */;
+			buildPhases = (
+				22B1D6F74774F4AECDD98C1814AB802C /* Headers */,
+				95EA3957A91D093C07D4E216BE223D7E /* Sources */,
+				08DE58FF05AE5CE84CB78ED4586C6BBC /* Frameworks */,
+				52F2C231C7BFF7E142117CF9257C04AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mraftapi;
+			productName = mraftapi;
+			productReference = 59607DC7A7D3C7CBDBCB48168EF9DEAC /* mraftapi */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 66E7DBDAE2FBA20CAFB7FFBB04F63739 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F826008745CF341AEDC36B2FADA8AF3A /* mraftapi */,
+				0CF34E4AEA627291B448DB7FA35D9A20 /* Pods-mraftapi_Example */,
+				73F529553C1ED7994BCFEE96478E7A9C /* Pods-mraftapi_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52F2C231C7BFF7E142117CF9257C04AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C55FB7F3BE1471F65C716BEBD3DFF0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0CDA2C3D14D02C14FB111C4BD41FC6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2242D7FFB5530AF37673D1CA3BB7C1FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				513F709BC7776EC37786706AD61D8D28 /* Pods-mraftapi_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95EA3957A91D093C07D4E216BE223D7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C1B9A69A3D3BA79C70E520121CDD816 /* mraftapi-dummy.m in Sources */,
+				FA30B7332A3B468C0070C76E /* ApiServiceCall.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D259EEF2AF102120858B633AED4A2452 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03394BDE8479D34E4E1A4D99892FC12E /* Pods-mraftapi_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BD1B2048E4F927E605583A624C670C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = mraftapi;
+			target = F826008745CF341AEDC36B2FADA8AF3A /* mraftapi */;
+			targetProxy = 52A332E274D60E961502101F083B4105 /* PBXContainerItemProxy */;
+		};
+		FFEF31A1ADEA0F7066B99BA600EA18B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-mraftapi_Example";
+			target = 0CF34E4AEA627291B448DB7FA35D9A20 /* Pods-mraftapi_Example */;
+			targetProxy = 154CF648C1B6F6C3A248F893AAF28604 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		89C01AE537E717F93B8728198EA57858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79D09293D531360BEC769C31B61C41F5 /* Pods-mraftapi_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-mraftapi_Tests/Pods-mraftapi_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-mraftapi_Tests/Pods-mraftapi_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		906A58F4B6256DFDD7D12CCD0051C363 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B08A9A5CEADD69CDF0D1A449B0F46D73 /* mraftapi.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/mraftapi/mraftapi-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/mraftapi/mraftapi-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/mraftapi/mraftapi.modulemap";
+				PRODUCT_MODULE_NAME = mraftapi;
+				PRODUCT_NAME = mraftapi;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0A9568802CBB8D405463FFD9EB165AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF9CDA829F71734251A2DDFA5D1285A0 /* mraftapi.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/mraftapi/mraftapi-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/mraftapi/mraftapi-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/mraftapi/mraftapi.modulemap";
+				PRODUCT_MODULE_NAME = mraftapi;
+				PRODUCT_NAME = mraftapi;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B33307439F6F41600FB89F39229B72AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D974CE204D552CB771F42C56B509AF7E /* Pods-mraftapi_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-mraftapi_Tests/Pods-mraftapi_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-mraftapi_Tests/Pods-mraftapi_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B831D27EE078058CA245DFF2B481C869 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7EB3F52C120296F7FFB2C803BE568D1 /* Pods-mraftapi_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-mraftapi_Example/Pods-mraftapi_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-mraftapi_Example/Pods-mraftapi_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BC6F60028D57B05EDE695B34854FF3E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71744B9CDEB9F1F6A983D4A570FA37EE /* Pods-mraftapi_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-mraftapi_Example/Pods-mraftapi_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-mraftapi_Example/Pods-mraftapi_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		128AAB7FEE72F60743A5059EC3972199 /* Build configuration list for PBXNativeTarget "Pods-mraftapi_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC6F60028D57B05EDE695B34854FF3E6 /* Debug */,
+				B831D27EE078058CA245DFF2B481C869 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6C1BF7153B3C63EEE4817F07E2ED3A7 /* Build configuration list for PBXNativeTarget "Pods-mraftapi_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B33307439F6F41600FB89F39229B72AA /* Debug */,
+				89C01AE537E717F93B8728198EA57858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE2A086EFD4E2E3C63604B302E217BB1 /* Build configuration list for PBXNativeTarget "mraftapi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0A9568802CBB8D405463FFD9EB165AC /* Debug */,
+				906A58F4B6256DFDD7D12CCD0051C363 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
