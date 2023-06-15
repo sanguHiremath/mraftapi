@@ -15,7 +15,7 @@
 		712708D4CB7AEF86A1749CCDB87EA9E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		779E5C449AFFEDDAD7126C6FDE3CA3F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		BDB33212BD7D1323D6A78FBB7FD46BA9 /* Pods-mraftapi_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 32F2963C3D3826670C2F179E1F3178C0 /* Pods-mraftapi_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FA30B7332A3B468C0070C76E /* ApiServiceCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA30B7322A3B468C0070C76E /* ApiServiceCall.swift */; };
+		FA30B7352A3B51740070C76E /* ApiServiceCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA30B7342A3B51740070C76E /* ApiServiceCall.swift */; };
 		FC4BCC66170DD04B8CDB20175138635F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,7 +46,7 @@
 		32F2963C3D3826670C2F179E1F3178C0 /* Pods-mraftapi_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-mraftapi_Tests-umbrella.h"; sourceTree = "<group>"; };
 		40E470ABBCE1FF7A932C990980720036 /* Pods-mraftapi_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-mraftapi_Example.modulemap"; sourceTree = "<group>"; };
 		585A57E3356E1F7F68AB09520369355A /* Pods-mraftapi_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-mraftapi_Tests"; path = Pods_mraftapi_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		59607DC7A7D3C7CBDBCB48168EF9DEAC /* mraftapi */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = mraftapi; path = mraftapi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59607DC7A7D3C7CBDBCB48168EF9DEAC /* mraftapi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = mraftapi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6280F03D97D23151E70667B791F0055C /* Pods-mraftapi_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-mraftapi_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6C70851771317B8ED3A1172A86B86769 /* mraftapi-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "mraftapi-dummy.m"; sourceTree = "<group>"; };
 		71744B9CDEB9F1F6A983D4A570FA37EE /* Pods-mraftapi_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mraftapi_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -69,7 +69,7 @@
 		E7EB3F52C120296F7FFB2C803BE568D1 /* Pods-mraftapi_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mraftapi_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E96E9BABE40DA8B1065702F39FF89CA3 /* Pods-mraftapi_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-mraftapi_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		EACB75BE5B41C389822EC8BD4F145276 /* mraftapi-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "mraftapi-Info.plist"; sourceTree = "<group>"; };
-		FA30B7322A3B468C0070C76E /* ApiServiceCall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiServiceCall.swift; sourceTree = "<group>"; };
+		FA30B7342A3B51740070C76E /* ApiServiceCall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiServiceCall.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,7 +134,7 @@
 		66E7DBDAE2FBA20CAFB7FFBB04F63739 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				59607DC7A7D3C7CBDBCB48168EF9DEAC /* mraftapi */,
+				59607DC7A7D3C7CBDBCB48168EF9DEAC /* mraftapi.framework */,
 				BC0EE090990EB0E6B79942050B0F21EC /* Pods-mraftapi_Example */,
 				585A57E3356E1F7F68AB09520369355A /* Pods-mraftapi_Tests */,
 			);
@@ -154,7 +154,7 @@
 		7DA43BC7B09AF068AC067FC9F677EA5B /* mraftapi */ = {
 			isa = PBXGroup;
 			children = (
-				FA30B7322A3B468C0070C76E /* ApiServiceCall.swift */,
+				FA30B7362A3B54390070C76E /* all */,
 				699C94801DBA845A6884EE992ABEDABC /* Pod */,
 				58AA89B900B200ABEC8894273AD56F15 /* Support Files */,
 			);
@@ -221,6 +221,14 @@
 			);
 			name = "Pods-mraftapi_Tests";
 			path = "Target Support Files/Pods-mraftapi_Tests";
+			sourceTree = "<group>";
+		};
+		FA30B7362A3B54390070C76E /* all */ = {
+			isa = PBXGroup;
+			children = (
+				FA30B7342A3B51740070C76E /* ApiServiceCall.swift */,
+			);
+			path = all;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -306,7 +314,7 @@
 			);
 			name = mraftapi;
 			productName = mraftapi;
-			productReference = 59607DC7A7D3C7CBDBCB48168EF9DEAC /* mraftapi */;
+			productReference = 59607DC7A7D3C7CBDBCB48168EF9DEAC /* mraftapi.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -317,6 +325,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					F826008745CF341AEDC36B2FADA8AF3A = {
+						LastSwiftMigration = 1400;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -375,8 +388,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA30B7352A3B51740070C76E /* ApiServiceCall.swift in Sources */,
 				6C1B9A69A3D3BA79C70E520121CDD816 /* mraftapi-dummy.m in Sources */,
-				FA30B7332A3B468C0070C76E /* ApiServiceCall.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +518,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B08A9A5CEADD69CDF0D1A449B0F46D73 /* mraftapi.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -537,6 +551,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DF9CDA829F71734251A2DDFA5D1285A0 /* mraftapi.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -557,6 +572,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
